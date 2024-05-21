@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="24"
+   height="14"
+   viewBox="0 0 24 14"
+   fill="none"
+   version="1.1"
+   id="svg2"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask-powermask-path-effect6">
+      <path
+         id="mask-powermask-path-effect6_box"
+         style="fill:#ffffff;fill-opacity:1"
+         d="M -1,-1 H 25 V 15 H -1 Z" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.73333px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke-width:39.9987"
+         x="5.5816102"
+         y="10.409992"
+         id="text6"
+         mask="none"><tspan
+           id="tspan6"
+           x="5.5816102"
+           y="10.409992"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.73333px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold';fill:#000000;fill-opacity:1">5.1</tspan></text>
+    </mask>
+  </defs>
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="m 4,0 h 16 c 2.2091,0 4,1.79086 4,4 v 6 c 0,2.2091 -1.7909,4 -4,4 H 4 C 1.79086,14 0,12.2091 0,10 V 4 C 0,1.79086 1.79086,0 4,0 Z"
+     fill="#ffffff"
+     id="path2"
+     clip-path="none"
+     mask="url(#mask-powermask-path-effect6)" />
+</svg>

@@ -14,6 +14,8 @@ type MediaQualityInfo = {
 	isHDR10Plus: boolean;
 	isTrueHD: boolean;
 	isIMAX: boolean;
+	isSurround51: boolean;
+	isSurround71: boolean;
 };
 
 export default MediaQualityInfo;

@@ -67,6 +67,8 @@ import hdr10Icon from "../../assets/icons/hdr10.svg";
 import imaxIcon from "../../assets/icons/imax.svg";
 import sdIcon from "../../assets/icons/sd.svg";
 import sdrIcon from "../../assets/icons/sdr.svg";
+import surround51Icon from "../../assets/icons/surround51.svg";
+import surround71Icon from "../../assets/icons/surround71.svg";
 
 import type MediaQualityInfo from "../../utils/types/mediaQualityInfo";
 
@@ -323,6 +325,14 @@ const ItemDetail = () => {
 				const checkIMAX = videos.filter((video) =>
 					video.DisplayTitle?.toLocaleLowerCase().includes("imax"),
 				);
+				const checkSurround51 = audios.filter(
+					(audio) =>
+						audio.ChannelLayout?.includes("5.1")
+				);
+				const checkSurround71 = audios.filter(
+					(audio) =>
+						audio.ChannelLayout?.includes("7.1")
+				);
 				setMediaQualityInfo({
 					isAtmos: checkAtmos.length > 0,
 					isDolbyVision: checkDolbyVision.length > 0,
@@ -339,6 +349,8 @@ const ItemDetail = () => {
 					isHDR10Plus: checkHDR10Plus.length > 0,
 					isTrueHD: checkTrueHD.length > 0,
 					isIMAX: checkIMAX.length > 0,
+					isSurround51: checkSurround51.length > 0,
+					isSurround71: checkSurround71.length > 0
 				});
 			}
 		}
@@ -601,6 +613,20 @@ const ItemDetail = () => {
 								justifyItems="flex-start"
 								alignItems="center"
 							>
+								{mediaQualityInfo.isSurround51 && (
+									<img
+										src={surround51Icon}
+										alt="5.1"
+										className="item-hero-mediaInfo"
+									/>
+								)}
+								{mediaQualityInfo.isSurround71 && (
+									<img
+										src={surround71Icon}
+										alt="7.1"
+										className="item-hero-mediaInfo"
+									/>
+								)}
 								{mediaQualityInfo?.isHDR10Plus && (
 									<img
 										src={hdr10PlusIcon}
