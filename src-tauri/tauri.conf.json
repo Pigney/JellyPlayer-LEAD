@@ -7,7 +7,7 @@
 		"distDir": "../dist"
 	},
 	"package": {
-		"productName": "JellyPlayer",
+		"productName": "JellyPlayer-LEAD",
 		"version": "../package.json"
 	},
 	"tauri": {
@@ -46,8 +46,8 @@
 				"icons/icon.icns",
 				"icons/icon.ico"
 			],
-			"identifier": "com.jellyplayer.prayag17",
-			"longDescription": "A modern desktop client for Jellyfin",
+			"identifier": "com.jellyplayer-lead.pigney",
+			"longDescription": "A modern desktop client for Jellyfin, forked by pigney",
 			"macOS": {
 				"entitlements": null,
 				"exceptionDomain": "",
@@ -56,7 +56,7 @@
 				"signingIdentity": null
 			},
 			"resources": [],
-			"shortDescription": "JellyPlayer",
+			"shortDescription": "JellyPlayer-LEAD",
 			"targets": ["deb", "appimage", "nsis", "app", "dmg", "updater"],
 			"windows": {
 				"certificateThumbprint": null,
@@ -94,7 +94,7 @@
 			]
 		},
 		"updater": {
-			"active": true,
+			"active": false,
 			"endpoints": [
 				"https://raw.githack.com/prayag17/JellyPlayer/main/latest.json"
 			],
@@ -104,10 +104,10 @@
 		"windows": [
 			{
 				"fullscreen": false,
-				"height": 600,
-				"width": 800,
+				"height": 900,
+				"width": 1600,
 				"resizable": true,
-				"title": "JellyPlayer",
+				"title": "JellyPlayer-LEAD",
 				"visible": true,
 				"center": true,
 				"label": "main"

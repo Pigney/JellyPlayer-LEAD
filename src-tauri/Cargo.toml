@@ -1,11 +1,11 @@
 [package]
-name = "jellyplayer"
+name = "jellyplayer-lead"
 version = "0.0.5-dev"
-description = "A Modern Jellyfin Client"
-authors = ["prayag17", "JellyPlayer contributors (https://github.com/prayag17/JellyPlayer/graphs/contributors)"]
+description = "A Modern Jellyfin Client, forked by pigney"
+authors = ["pigney", "prayag17", "JellyPlayer contributors (https://github.com/prayag17/JellyPlayer/graphs/contributors)"]
 license = "GPL-3.0-only"
 repository = "https://github.com/prayag17/JellyPlayer/"
-default-run = "jellyplayer"
+default-run = "jellyplayer-lead"
 edition = "2021"
 rust-version = "1.59"
 
@@ -18,7 +18,7 @@ tauri-build = { version = "1.5.1", features = [] }
 log = "^0.4.21"
 serde_json = "1.0.116"
 serde = { version = "1.0.200", features = ["derive"] }
-tauri = { version = "1.6.2", features = [ "window-all", "updater", "http-all", "process-exit", "process-relaunch", "shell-all", "devtools"] }
+tauri = { version = "1.6.2", features = [ "window-all", "http-all", "process-exit", "process-relaunch", "shell-all", "devtools"] }
 tauri-plugin-localhost = { git = "https://github.com/tauri-apps/plugins-workspace", branch = "v1" }
 tauri-plugin-store = { git = "https://github.com/tauri-apps/plugins-workspace", branch = "v1" }
 tauri-plugin-log = { git = "https://github.com/tauri-apps/plugins-workspace", branch = "v1", features = ["colored"] }

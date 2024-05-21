@@ -22,11 +22,11 @@ if (!localStorage.getItem("deviceId")) {
 
 const jellyfin = new Jellyfin({
 	clientInfo: {
-		name: "JellyPlayer",
+		name: "JellyPlayer-LEAD",
 		version: appVer,
 	},
 	deviceInfo: {
-		name: "JellyPlayer",
+		name: "JellyPlayer-LEAD",
 		id: deviceId,
 	},
 });
