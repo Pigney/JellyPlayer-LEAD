@@ -48,13 +48,13 @@ body {
 .app-backdrop {
 	transition: 0.7s;
 	object-fit: cover;
-	width: calc(100% + 70px);
-	height: calc(100% + 70px);
+	width: calc(100% + 50px);
+	height: calc(100% + 50px);
 	position: absolute;
-	top: -35px;
-	left: -35px;
+	top: -25px;
+	left: -25px;
 	z-index: -2;
-	filter: blur(70px) saturate(60%) contrast(120%);
+	filter: blur(50px) saturate(60%) contrast(135%);
 	&-container {
 		position: fixed;
 		width: 100vw;
@@ -62,7 +62,7 @@ body {
 		left: 0;
 		top: 0;
 		z-index: -1;
-		filter: brightness(0.4);
+		filter: brightness(0.2);
 	}
 }
 

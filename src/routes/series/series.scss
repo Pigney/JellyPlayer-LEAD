@@ -75,11 +75,11 @@ $cardWidth: 18%;
 				width: 100vw;
 				height: calc(54vh + 4.4em);
 				z-index: -1;
-				mask-image: linear-gradient(to top, transparent, black);
+				mask-image: linear-gradient(to top, transparent, black 70%);
 				-webkit-mask-image: linear-gradient(
 				to top,
 				transparent,
-				black
+				black 70%
 				);
 			}
 		}
