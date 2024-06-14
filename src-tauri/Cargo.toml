@@ -1,11 +1,11 @@
 [package]
-name = "jellyplayer-lead"
+name = "blink-lead"
 version = "0.0.5-dev"
 description = "A Modern Jellyfin Client, forked by pigney"
 authors = ["pigney", "prayag17", "JellyPlayer contributors (https://github.com/prayag17/JellyPlayer/graphs/contributors)"]
 license = "GPL-3.0-only"
 repository = "https://github.com/prayag17/JellyPlayer/"
-default-run = "jellyplayer-lead"
+default-run = "blink-lead"
 edition = "2021"
 rust-version = "1.59"
 

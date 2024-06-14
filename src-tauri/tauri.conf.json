@@ -7,7 +7,7 @@
 		"distDir": "../dist"
 	},
 	"package": {
-		"productName": "JellyPlayer-LEAD",
+		"productName": "Blink-LEAD",
 		"version": "../package.json"
 	},
 	"tauri": {
@@ -46,7 +46,7 @@
 				"icons/icon.icns",
 				"icons/icon.ico"
 			],
-			"identifier": "com.jellyplayer-lead.pigney",
+			"identifier": "com.blink-lead.pigney",
 			"longDescription": "A modern desktop client for Jellyfin, forked by pigney",
 			"macOS": {
 				"entitlements": null,
@@ -56,7 +56,7 @@
 				"signingIdentity": null
 			},
 			"resources": [],
-			"shortDescription": "JellyPlayer-LEAD",
+			"shortDescription": "Blink-LEAD",
 			"targets": ["deb", "appimage", "nsis", "app", "dmg", "updater"],
 			"windows": {
 				"certificateThumbprint": null,
@@ -68,10 +68,6 @@
 					"installerIcon": "icons/icon.ico",
 					"displayLanguageSelector": true,
 					"license": "../LICENSE"
-				},
-				"webviewInstallMode": {
-					"silent": true,
-					"type": "offlineInstaller"
 				}
 			},
 			"appimage": {
@@ -107,7 +103,7 @@
 				"height": 900,
 				"width": 1600,
 				"resizable": true,
-				"title": "JellyPlayer-LEAD",
+				"title": "Blink-LEAD",
 				"visible": true,
 				"center": true,
 				"label": "main"
